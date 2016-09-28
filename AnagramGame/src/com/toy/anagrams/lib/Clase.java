@@ -13,10 +13,14 @@ public class Clase {
     private int j;
     
     public Clase (int valor){
-        this.j=valor;
+        this.setClase(valor);
     }
     
     public int getClase(){
         return this.j;
+    }
+    
+    public void setClase(int valor){
+        this.j=valor;
     }
 }
